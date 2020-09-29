@@ -52,7 +52,7 @@ export type Secret = {
 export type SessionCredential = {
   tmpSecretId: string;
   tmpSecretKey: string;
-  expiredTime: string;
+  expiredTime: number;
   sessionToken: string;
 }
 
